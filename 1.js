@@ -1,12 +1,7 @@
-let price=[250,645,300,900,50];
-console.log("price after 10% deduction");
-for(let i=0;i<price.length;i++)
+let game=prompt("If I have 12 apples and my friend have 54 ananas then how many fruits we have??")
+while(game!=66)
 {
-    price[i]= price[i] - price[i]*0.1;
+    console.log("Sorry you entered the wrong number... so close!! Try again!!");
 }
-console.log(price);
-price.push(12);
-console.log(price);
-console.log(price.splice(2,2,103,102,123))
-console.log(price)
+console.log("YAY!! You entered the correct number");
 
